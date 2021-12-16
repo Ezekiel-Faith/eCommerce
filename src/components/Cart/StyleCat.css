@@ -1,0 +1,67 @@
+/* Start Carousel */
+.home .home-banner-1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% center;
+  min-height: 400px;
+  position: relative;
+}
+
+.home .home-banner-1 {
+  background-image: url('../images/images/slide1.jpg');
+}
+
+.home .home-banner-1 .home-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-110%, -50%);
+}
+
+.home .home-banner-1 .home-banner-text h1 {
+  font-size: 6rem;
+}
+
+.home,
+.home-banner-text .btn-danger,
+.search-bar .search-but button {
+  background-color: #241e4e;
+  border-color: #0c7ea7;
+}
+
+.home .carousel-indicators [data-bs-target] {
+  background-color: #0c7ea7;
+  width: 2.5rem;
+  height: 0.313rem;
+  border: none;
+  margin-right: 0.2rem;
+  margin-bottom: 2em;
+}
+/* End Carousel */
+
+/* Start Category-Card */
+.row-categories {
+  /*  */
+}
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+/* End Category-Card */
+
+/* Start Search */
+.search-bar {
+  /* position: absolute; */
+  z-index: 1;
+  top: 100px;
+  width: 100%;
+}
+
+/* End Search */
